@@ -1,0 +1,8 @@
+C:\Users\timib\Documents\Work\DotNet\PracticeLounge\PracticeLounge\bin\Debug\PracticeLounge.exe.config
+C:\Users\timib\Documents\Work\DotNet\PracticeLounge\PracticeLounge\bin\Debug\PracticeLounge.exe
+C:\Users\timib\Documents\Work\DotNet\PracticeLounge\PracticeLounge\bin\Debug\PracticeLounge.pdb
+C:\Users\timib\Documents\Work\DotNet\PracticeLounge\PracticeLounge\obj\Debug\PracticeLounge.csproj.AssemblyReference.cache
+C:\Users\timib\Documents\Work\DotNet\PracticeLounge\PracticeLounge\obj\Debug\PracticeLounge.csproj.SuggestedBindingRedirects.cache
+C:\Users\timib\Documents\Work\DotNet\PracticeLounge\PracticeLounge\obj\Debug\PracticeLounge.csproj.CoreCompileInputs.cache
+C:\Users\timib\Documents\Work\DotNet\PracticeLounge\PracticeLounge\obj\Debug\PracticeLounge.exe
+C:\Users\timib\Documents\Work\DotNet\PracticeLounge\PracticeLounge\obj\Debug\PracticeLounge.pdb
