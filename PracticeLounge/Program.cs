@@ -46,21 +46,25 @@ namespace PracticeLounge
 
             //Console.WriteLine(numGrid[1, 1]);
 
-            try
-            {
-                Console.Write("Enter numerator");
-                int num = Convert.ToInt32(Console.ReadLine());
+            //try
+            //{
+            //    Console.Write("Enter numerator: ");
+            //    int num = Convert.ToInt32(Console.ReadLine());
 
-                Console.Write("Enter Denominator");
-                int dum = Convert.ToInt32(Console.ReadLine());
+            //    Console.Write("Enter Denominator: ");
+            //    int dum = Convert.ToInt32(Console.ReadLine());
 
-                Console.WriteLine(num / dum);
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
-            }
+            //    Console.WriteLine(num / dum);
+            //}
+            //catch (Exception e)
+            //{
+            //    Console.WriteLine(e.Message);
+            //}
 
+            Book book1 = new Book();
+            book1.title = "New Order";
+
+            Console.WriteLine(book1.title);
             Console.ReadLine();
         }
     }
