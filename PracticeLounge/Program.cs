@@ -37,14 +37,29 @@ namespace PracticeLounge
             //    Console.WriteLine("You Win");
             //}
 
-            int[,] numGrid =
-            {
-                { 1, 2 },
-                {3,  4 },
-                {6, 5 },
-            };
+            //int[,] numGrid =
+            //{
+            //    { 1, 2 },
+            //    {3,  4 },
+            //    {6, 5 },
+            //};
 
-            Console.WriteLine(numGrid[1, 2]);
+            //Console.WriteLine(numGrid[1, 1]);
+
+            try
+            {
+                Console.Write("Enter numerator");
+                int num = Convert.ToInt32(Console.ReadLine());
+
+                Console.Write("Enter Denominator");
+                int dum = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine(num / dum);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
 
             Console.ReadLine();
         }
