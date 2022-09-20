@@ -61,10 +61,13 @@ namespace PracticeLounge
             //    Console.WriteLine(e.Message);
             //}
 
-            Book book1 = new Book();
-            book1.title = "New Order";
+            Student student1 = new Student("Nonye", "Physics", 3.6);
+            Student student2 = new Student("Damola", "Elect Elect", 2.8);
 
-            Console.WriteLine(book1.title);
+
+            Console.WriteLine(student1.HasHonours());
+            Console.WriteLine(student2.HasHonours());
+
             Console.ReadLine();
         }
     }
