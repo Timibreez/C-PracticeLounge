@@ -17,7 +17,7 @@ namespace PracticeLounge
         {
             this.title = title;
             this.director = director;
-            this.rating = rating;
+            this.Rating = rating;
         }
 
         public string Rating

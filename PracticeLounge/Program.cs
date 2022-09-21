@@ -70,7 +70,7 @@ namespace PracticeLounge
             Movie avengers = new Movie("The Avengers", "Timibreez", "R");
             Movie shrek = new Movie("The Shrek", "Nonye", "VR");
 
-            avengers.Rating = "NR";
+            avengers.Rating = "shgh";
 
             Console.WriteLine(shrek.Rating);
 
