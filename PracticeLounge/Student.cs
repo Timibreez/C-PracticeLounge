@@ -1,32 +1,32 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
 
-namespace PracticeLounge
-{
-    internal class Student
-    {
-        public string name;
-        public string major;
-        public double gpa;
+//namespace PracticeLounge
+//{
+//    internal class Student
+//    {
+//        public string name;
+//        public string major;
+//        public double gpa;
 
-        public Student(string aName, string aMajor, double aGpa)
-        {
-            name = aName;
-            major = aMajor;
-            gpa = aGpa;
-        }
+//        public Student(string aName, string aMajor, double aGpa)
+//        {
+//            name = aName;
+//            major = aMajor;
+//            gpa = aGpa;
+//        }
 
-        public bool HasHonours()
-            {
-                if (gpa >= 3.5)
-                {
-                    return true;
-                }
-                return false;
-        }
-    }
+//        public bool HasHonours()
+//            {
+//                if (gpa >= 3.5)
+//                {
+//                    return true;
+//                }
+//                return false;
+//        }
+//    }
 
-}
+//}

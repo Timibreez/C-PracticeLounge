@@ -61,12 +61,18 @@ namespace PracticeLounge
             //    Console.WriteLine(e.Message);
             //}
 
-            Student student1 = new Student("Nonye", "Physics", 3.6);
-            Student student2 = new Student("Damola", "Elect Elect", 2.8);
+            //Student student1 = new Student("Nonye", "Physics", 3.6);
+            //Student student2 = new Student("Damola", "Elect Elect", 2.8);
 
 
-            Console.WriteLine(student1.HasHonours());
-            Console.WriteLine(student2.HasHonours());
+            //Console.WriteLine(student1.HasHonours());
+            //Console.WriteLine(student2.HasHonours());
+            Movie avengers = new Movie("The Avengers", "Timibreez", "R");
+            Movie shrek = new Movie("The Shrek", "Nonye", "VR");
+
+            avengers.Rating = "NR";
+
+            Console.WriteLine(shrek.Rating);
 
             Console.ReadLine();
         }
