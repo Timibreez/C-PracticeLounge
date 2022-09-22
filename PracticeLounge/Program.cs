@@ -67,12 +67,20 @@ namespace PracticeLounge
 
             //Console.WriteLine(student1.HasHonours());
             //Console.WriteLine(student2.HasHonours());
-            Movie avengers = new Movie("The Avengers", "Timibreez", "R");
-            Movie shrek = new Movie("The Shrek", "Nonye", "VR");
 
-            avengers.Rating = "shgha";
 
-            Console.WriteLine(shrek.Rating);
+            //Movie avengers = new Movie("The Avengers", "Timibreez", "R");
+            //Movie shrek = new Movie("The Shrek", "Nonye", "VR");
+
+            //avengers.Rating = "shgha";
+
+            //Console.WriteLine(shrek.Rating);
+
+            Song organize = new Song("Organize", "Asake", 60);
+            Console.WriteLine(organize.getSongCount());
+
+            Song mercy = new Song("Mercy", "Asake", 40);
+            Console.WriteLine(mercy.getSongCount());
 
             Console.ReadLine();
         }
