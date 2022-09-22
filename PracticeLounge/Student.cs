@@ -1,31 +1,31 @@
-﻿//using System;
-//using System.Collections.Generic;
-//using System.Linq;
-//using System.Text;
-//using System.Threading.Tasks;
+﻿//using system;
+//using system.collections.generic;
+//using system.linq;
+//using system.text;
+//using system.threading.tasks;
 
-//namespace PracticeLounge
+//namespace practicelounge
 //{
-//    internal class Student
+//    internal class student
 //    {
 //        public string name;
 //        public string major;
 //        public double gpa;
 
-//        public Student(string aName, string aMajor, double aGpa)
+//        public student(string aname, string amajor, double agpa)
 //        {
-//            name = aName;
-//            major = aMajor;
-//            gpa = aGpa;
+//            name = aname;
+//            major = amajor;
+//            gpa = agpa;
 //        }
 
-//        public bool HasHonours()
+//        public bool hashonours()
+//        {
+//            if (gpa >= 3.5)
 //            {
-//                if (gpa >= 3.5)
-//                {
-//                    return true;
-//                }
-//                return false;
+//                return true;
+//            }
+//            return false;
 //        }
 //    }
 
